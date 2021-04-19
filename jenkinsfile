@@ -1,5 +1,5 @@
 node{
-    stage{"clone"){
+    stage("clone"){
         git "https://github.com/shlomiazu/my-github-dsektop.git"
     }
     stage("show file"){
