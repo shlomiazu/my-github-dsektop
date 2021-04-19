@@ -1,0 +1,8 @@
+node{
+    stage{"clone"){
+        git "https://github.com/shlomiazu/my-github-dsektop.git"
+    }
+    stage("show file"){
+      bat "dir"
+    }
+}
